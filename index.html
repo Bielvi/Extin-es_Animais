@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animais em Extinção</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colégio Helena</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Cabeçalho -->
-  <header>
-    <img src="" alt="" class="logo">
-    <h1>Animais em Extinção</h1>
-  </header>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Logo.png" alt="Logo">
+            </div>
+            <ul class="menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li class="dropdown">
+                    <a href="#">Cursos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Desenvolvimento de Sistemas</a></li>
+                        <li><a href="#">Formação de Docentes</a></li>
+                        <li><a href="#">Química para Empresas</a></li>
+                        <li><a href="#">Ensino Regular</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+            <div class="social-links">
+                <img src="instagram 1.png" href="https://www.instagram.com" target="_blank" alt="Instagram"></a>
+                <img src="facebook 1.png" href="https://www.facebook.com" target="_blank"alt="Facebook"></a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="01.png" alt="Imagem 1">
+            <img src="2.png" alt="Imagem 2">
+            <img src="3.png" alt="Imagem 3">
+        </div>
+        <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+        <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
 
-  <!-- Banner Central -->
-  <section class="banner">
-    <img src="images/banner.jpg" alt="Imagem de animais em extinção">
-  </section>
+</div>
+<script src="script.js"></script>
 
-  <!-- Conteúdo Principal -->
-  <main>
-    <h2>Conservação e Proteção</h2>
-    <p>
-      Muitos animais estão em risco de extinção devido à destruição de seus habitats, caça ilegal e mudanças climáticas. 
-      Espécies como o tigre-de-bengala, o panda-gigante e o lobo-guará enfrentam sérias ameaças. 
-      É essencial agir para preservar a biodiversidade e garantir um futuro sustentável.
-    </p>
-    <h3>Curiosidades</h3>
-    <ul>
-      <li>O tigre-de-bengala é um dos maiores felinos do mundo.</li>
-      <li>O lobo-guará é encontrado principalmente no cerrado brasileiro.</li>
-      <li>O panda-gigante consome mais de 12kg de bambu por dia!</li>
-    </ul>
-  </main>
-
-  <!-- Rodapé -->
-  <footer>
-    <p>Fontes: <a href="https://www.wwf.org.br/" target="_blank">WWF Brasil</a>, <a href="https://www.iucnredlist.org/" target="_blank">IUCN Red List</a></p>
-    <p>Contato: animaisextincao@email.com</p>
-    <p>&copy; 2024 Animais em Extinção</p>
-  </footer>
 </body>
 </html>
-
