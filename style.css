@@ -49,7 +49,7 @@ body {
 
 .menu a:active {
   background-color: darkblue;
-  color: rgb(78, 72, 72);
+  color: rgb(255, 255, 255);
 }
 
 /* Dropdown */
